@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "scope": "zrrrzzt",
+  "builds": [
+    { 
+      "src": "/api/*js",
+      "use": "@now/node" 
+    }
+  ],
+  "routes": [
+    { "src": "/callback(.*)",
+      "dest": "/api/callback.js"
+    },
+    { "src": "/login",
+      "dest": "/api/login.js"
+    }
+  ]
+}

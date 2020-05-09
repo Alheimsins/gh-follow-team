@@ -1,18 +1,18 @@
 (async () => {
   const open = require('open')
   const setup = require('./lib/setup')
-  const { clientID, clientSecret, teamUrl } = await setup()
-  console.log(clientID, clientSecret, teamUrl)
+  const { teamUrl } = await setup()
+  console.log(teamUrl)
 
   require('http').createServer((request, response) => {
     if (request.url.match(/callback/)) {
       const url = new URL(`http://${request.headers.host}${request.url}`)
-      const code = url.searchParams.get('code')
-      console.log(code)
+      const token = url.searchParams.get('token')
+      console.log(token)
       response.end('You may close this window now.')
       process.exit(0)
     }
-  }).listen(3000)
+  }).listen(9000)
 
-  open(`https://github.com/login/oauth/authorize?client_id=${clientID}&scope=user:follow,read:org`)
+  open(`http://localhost:3000/login`)
 })()
