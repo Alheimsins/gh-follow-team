@@ -1,0 +1,26 @@
+{
+  "name": "gh-follow-team",
+  "version": "1.0.0",
+  "description": "Follow all members from a team on GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alheimsins/gh-follow-team.git"
+  },
+  "keywords": [],
+  "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alheimsins/gh-follow-team/issues"
+  },
+  "homepage": "https://github.com/Alheimsins/gh-follow-team#readme",
+  "dependencies": {
+    "axios": "0.19.2",
+    "inquirer": "7.1.0",
+    "open": "7.0.3",
+    "then-sleep": "1.0.1"
+  }
+}
