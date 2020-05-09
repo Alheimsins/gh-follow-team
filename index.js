@@ -11,5 +11,5 @@
     }
   }).listen(9000)
 
-  open(`http://localhost:3000/login`)
+  open(`https://gh-follow-team.allthethings.win/login`)
 })()
