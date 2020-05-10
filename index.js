@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 (async () => {
   const open = require('open')
   const followTeamMembers = require('./lib/follow-team-members')
@@ -13,4 +14,5 @@
   }).listen(9000)
 
   open('https://gh-follow-team.allthethings.win/login')
+
 })()

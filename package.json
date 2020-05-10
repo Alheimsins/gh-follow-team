@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Follow all members from a team on GitHub",
   "main": "index.js",
+  "bin": {
+    "gh-follow-team": "index.js"
+  },
   "scripts": {
     "test": "standard && ava",
     "standard-fix": "standard --fix",
