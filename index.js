@@ -12,5 +12,5 @@
     }
   }).listen(9000)
 
-  open(`https://gh-follow-team.allthethings.win/login`)
+  open('https://gh-follow-team.allthethings.win/login')
 })()

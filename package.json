@@ -4,7 +4,8 @@
   "description": "Follow all members from a team on GitHub",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "standard && ava",
+    "standard-fix": "standard --fix",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm i"
   },
   "repository": {
@@ -22,5 +23,9 @@
     "axios": "0.19.2",
     "open": "7.0.3",
     "then-sleep": "1.0.1"
+  },
+  "devDependencies": {
+    "ava": "3.8.2",
+    "standard": "14.3.3"
   }
 }
