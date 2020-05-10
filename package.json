@@ -15,7 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/Alheimsins/gh-follow-team.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "oauth",
+    "github",
+    "follow team members"
+  ],
   "author": "Geir Gåsodden <geir.gasodden@pythonia.no> (https://github.com/zrrrzzt)",
   "license": "MIT",
   "bugs": {
@@ -30,5 +35,12 @@
   "devDependencies": {
     "ava": "3.8.2",
     "standard": "14.3.3"
+  },
+  "files": [
+    "lib/*.js",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=14.2.0"
   }
 }
