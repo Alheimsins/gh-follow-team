@@ -17,6 +17,10 @@ Then wait.
 
 You're done.
 
+## Related
+
+- [gh-follow-team-auth-server](https://github.com/Alheimsins/gh-follow-team-auth-server) auth server for this app
+
 # License
 
 [MIT](LICENSE)
