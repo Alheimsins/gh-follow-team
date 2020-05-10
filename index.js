@@ -1,7 +1,6 @@
 (async () => {
   const open = require('open')
-  const setup = require('./lib/setup')
-  const { teamUrl } = await setup()
+  const teamUrl = process.argv.slice(2)[0]
 
   require('http').createServer((request, response) => {
     if (request.url.match(/callback/)) {
@@ -12,4 +11,5 @@
   }).listen(9000)
 
   open(`https://gh-follow-team.allthethings.win/login`)
+
 })()

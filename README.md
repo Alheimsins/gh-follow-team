@@ -2,9 +2,17 @@
 
 Follow all members from a team on GitHub.
 
-## Setup
+## Usage
 
-You'll need to create a GitHub OAuth App.
+```
+$ npx https://github.com/orgs/<your-organization>/teams/<your-team>/members
+```
+
+The next step is to authorize the app for you organization.
+
+Then wait.
+
+You're done.
 
 # License
 
