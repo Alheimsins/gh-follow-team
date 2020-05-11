@@ -1,6 +1,6 @@
 {
   "name": "gh-follow-team",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Follow all members from a team on GitHub",
   "main": "index.js",
   "bin": {
