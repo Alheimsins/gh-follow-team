@@ -8,6 +8,13 @@ test('it returns api url from team url', t => {
   t.is(createdUrl, expectedUrl, 'url is ok')
 })
 
+test('it returns api url from org url', t => {
+  const teamUrl = 'https://github.com/Alheimsins'
+  const expectedUrl = 'https://api.github.com/orgs/Alheimsins/members'
+  const createdUrl = createApiUrl(teamUrl)
+  t.is(createdUrl, expectedUrl, 'url is ok')
+})
+
 test('it returns api url from api url', t => {
   const teamUrl = 'https://api.github.com/orgs/Alheimsins/teams/core/members'
   const expectedUrl = 'https://api.github.com/orgs/Alheimsins/teams/core/members'

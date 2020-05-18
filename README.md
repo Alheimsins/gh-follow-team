@@ -3,12 +3,18 @@
 
 # gh-follow-team
 
-Follow all members from a team on GitHub.
+Follow all members from a team or organization on GitHub.
 
 ## Usage
 
 ```
 $ npx gh-follow-team https://github.com/orgs/<your-organization>/teams/<your-team>/members
+```
+
+or
+
+```
+$ npx gh-follow-team https://github.com/<your-organization>
 ```
 
 The next step is to authorize the app for you organization.
