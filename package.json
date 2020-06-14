@@ -33,7 +33,7 @@
     "open": "7.0.4"
   },
   "devDependencies": {
-    "ava": "3.8.2",
+    "ava": "3.9.0",
     "standard": "14.3.4"
   },
   "files": [
