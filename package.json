@@ -30,7 +30,7 @@
   "dependencies": {
     "axios": "0.19.2",
     "nanoid": "3.1.10",
-    "open": "7.0.4"
+    "open": "7.1.0"
   },
   "devDependencies": {
     "ava": "3.10.1",
