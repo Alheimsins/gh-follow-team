@@ -29,7 +29,7 @@
   "homepage": "https://github.com/Alheimsins/gh-follow-team#readme",
   "dependencies": {
     "axios": "0.20.0",
-    "nanoid": "3.1.12",
+    "nanoid": "3.1.15",
     "open": "7.3.0"
   },
   "devDependencies": {
